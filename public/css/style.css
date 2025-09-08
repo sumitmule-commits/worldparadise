@@ -1,0 +1,105 @@
+.body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+  flex: 1;
+}
+
+.navbar-brand {
+    height: 3rem;
+}
+
+.bg-body-light{
+    background-color: white;
+}
+
+.fa-compass{
+    color : #FF5A5F;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: black !important;
+}
+
+/* footer */
+.footer-icon:hover {
+    color: #0dcaf0; /* Bootstrap's info color */
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .footer-link:hover {
+    text-decoration: underline;
+    color: #0dcaf0;
+  }
+
+  .footer-links,
+  .footer-copy {
+    font-size: 0.875rem; /* Equivalent to Bootstrap's small text */
+  }
+
+  /* Card styles */
+.card {
+  background-color: transparent !important;  /* Make background invisible */
+  border: none !important;                   /* Remove border */
+  box-shadow: none;               /* Remove any shadow */
+  padding: 10px;                  /* Optional: Keep spacing */
+  margin: 10px; 
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
+  width: 17rem;
+  margin: 0.5rem; /* optional: extra spacing if needed */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin: 0;
+  color: black !important; /* Or any other desired color */
+}
+
+.card-title a {
+  text-decoration: black;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  color: #666;
+}
+
+/* new liating style */
+
+.new-btn {
+  background-color: #FF5A5F !important ;
+  border: none !important;
+}
+
+/* show img */
+.show img{
+  height: 30vh;
+}
+
+.style{
+  margin-top: 10px;
+
+}

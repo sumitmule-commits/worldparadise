@@ -1,0 +1,42 @@
+<% layout('/layouts/boilerplate') -%>
+<body class="bg-light" style="margin: 0; padding: 0; background: transparent;">
+  <div class="container mt-5 mb-5 d-flex justify-content-center">
+    <div class="w-100 p-4" style="max-width: 600px; background-color: transparent;">
+
+      <h3 class="text-center mb-4">Listing Details</h3>
+
+    <!-- Listing Image -->
+<% const imageUrl = (listing.image && listing.image.url) || listing.image; %>
+<div class="text-center mb-4">
+  <% if (imageUrl) { %>
+    <img src="<%= imageUrl %>" class="img-fluid rounded" style="max-height: 300px;" onerror="this.style.display='none'" />
+  <% } else { %>
+    <p>No image uploaded</p>
+  <% } %>
+</div>
+
+
+      </div>
+
+      <!-- Listing Info -->
+      <div class="text-center" style="background-color: transparent;">
+        <h4 class="mb-2"><%= listing.title %></h4>
+        <p class="text-muted mb-3"><%= listing.description %></p>
+
+        <div class="mb-3" style="background-color: transparent;">
+          <p><strong>Price:</strong> ₹<%= (listing.price || 0).toLocaleString("en-IN") %></p>
+          <p><strong>Location:</strong> <%= listing.location %></p>
+          <p><strong>Country:</strong> <%= listing.country %></p>
+        </div>
+
+        <!-- Buttons -->
+        <a href="/listings/<%= listing._id %>/edit" class="btn btn-primary w-100 mb-2">Edit this Listing</a>
+
+        <form method="POST" action="/listings/<%= listing._id %>?_method=DELETE">
+          <button class="btn btn-danger w-100">Delete this Listing</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</body>

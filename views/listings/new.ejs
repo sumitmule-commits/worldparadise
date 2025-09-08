@@ -1,0 +1,49 @@
+<% layout('/layouts/boilerplate') -%>
+<body class="bg-light">
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-9">
+        <h3 class="text-center mb-4">Create a New Listing</h3>
+        <form method="POST" action="/listings" novalidate class="needs-validation">
+          <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input name="listing[title]" placeholder="Enter title" type="text" class="form-control" required />
+            <div class="valid-feedback"> Looks good!</div>
+          </div>
+          <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <textarea name="listing[description]" placeholder="Enter description" class="form-control" required></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="image" class="form-label">Image</label>
+            <input name="listing[image]" placeholder="Enter image URL/Link" type="text" class="form-control" required/>
+          </div>
+
+          <!-- Price and Country in same row for medium+ screens -->
+          <div class="row">
+            <div class="mb-3 col-md-6">
+              <label for="price" class="form-label">Price</label>
+              <input name="listing[price]" placeholder="Enter price" type="number" class="form-control" required />
+              <div class="invalid-feedback">Please provide a valid price value </div>
+            </div>
+            <div class="mb-3 col-md-6">
+              <label for="country" class="form-label">Country</label>
+              <input name="listing[country]" placeholder="Enter country" type="text" class="form-control" required/>
+               <div class="invalid-feedback">Please provide a valid country name </div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="location" class="form-label">Enter location</label>
+            <input name="listing[location]" placeholder="Enter location" type="text" class="form-control" required/>
+             <div class="invalid-feedback">Please provide a valid location </div>
+          </div>
+          <div class="text-center mt-4">
+            <button class="btn btn-dark px-5 new-btn">Add</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="/js/script.js"></script>
+</body>
