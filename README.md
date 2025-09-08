@@ -10,7 +10,7 @@ including property listings, booking functionality, and user authentication.
 - **Backend:** Node.js + Express (Planned / In Progress)
 - **Database:** MongoDB (Planned / In Progress)
 - **Authentication:** JWT / OAuth (Planned)
-- **Deployment:** Vercel / Render / Netlify (TBD)
+- **Deployment:** Vercel / Render / cloudflare (TBD)
 
 ---
 
@@ -29,3 +29,4 @@ including property listings, booking functionality, and user authentication.
 
 
 Clone the repository and install dependencies
+
