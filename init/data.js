@@ -347,6 +347,166 @@ const sampleListings = [
     location: "Costa Rica",
     country: "Costa Rica",
   },
+  {
+    "title": "Riverfront Stone Cottage",
+    "description": "Unwind in a historic stone cottage on the riverbank, ideal for fishing and serene mornings.",
+    "image": {
+      "filename": "listingimage21",
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=60"
+    }
+  },
+  {
+    "title": "Chalet in Pine Woods",
+    "description": "A pine-scented mountain chalet, cozy for chilly nights and scenic nature trails.",
+    "image": {
+      "filename": "listingimage22",
+      "url": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=60"
+    }
+  },
+  {
+    "title": "Desert Adobe Retreat",
+    "description": "Retreat in an adobe home with starlit nights, desert blooms, and Southwestern charm.",
+    "image": {
+      "filename": "listingimage23",
+      "url": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=60"
+    }
+  },
+  {
+    "title": "Spring Forest Cabin",
+    "description": "Wake up to birdsong in this charming forest cabin surrounded by wildflowers.",
+    "image": {
+      "filename": "listingimage24",
+      "url": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=60"
+    }
+  },
+  {
+    "title": "Luxury Urban Penthouse",
+    "description": "Glamorous penthouse with panoramic city views and stylish interiors.",
+    "image": {
+      "filename": "listingimage25",
+      "url": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=60"
+    }
+  },
+  {
+    "title": "Country Manor House",
+    "description": "Elegant manor house surrounded by meadows, ideal for peaceful autumn walks.",
+    "image": {
+      "filename": "listingimage26",
+      "url": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=60"
+    }
+  },
+  {
+    "title": "Winter Log Cabin",
+    "description": "Traditional log cabin with a roaring fireplace, great for a snowy winter stay.",
+    "image": {
+      "filename": "listingimage27",
+      "url": "https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?auto=format&fit=crop&w=800&q=60"
+    }
+  },
+  {
+    "title": "Secluded Cliff Villa",
+    "description": "Enjoy privacy in a cliffside villa with dramatic ocean panoramas.",
+    "image": {
+      "filename": "listingimage28",
+      "url": "https://images.unsplash.com/photo-1465101178521-c5b529ae21a2?auto=format&fit=crop&w=800&q=60"
+    }
+  },
+  {
+    "title": "Classic Urban Brownstone",
+    "description": "Historic brownstone with architectural beauty in a vibrant city neighborhood.",
+    "image": {
+      "filename": "listingimage29",
+      "url": "https://images.unsplash.com/photo-1465101178521-c5b529ae21a2?auto=format&fit=crop&w=800&q=60"
+    }
+  },
+  {
+    "title": "Lakeside Retreat Cabin",
+    "description": "Relax in a lakeside cabin with kayaking, hiking, and autumn foliage.",
+    "image": {
+      "filename": "listingimage30",
+      "url": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    }
+  },
+  {
+    "title": "Winter Resort Suite",
+    "description": "Ski-in, ski-out suite in a modern resort—perfect for winter sports and cozy evenings.",
+    "image": {
+      "filename": "listingimage31",
+      "url": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=60"
+    }
+  },
+  {
+    "title": "Modern Island Hideaway",
+    "description": "Chic hideaway on a tropical island with private beach access.",
+    "image": {
+      "filename": "listingimage32",
+      "url": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=60"
+    }
+  },
+  {
+    "title": "Spring Riverside Cabin",
+    "description": "A riverside cabin immersed in vibrant spring greens and gentle waters.",
+    "image": {
+      "filename": "listingimage33",
+      "url": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=60"
+    }
+  },
+  {
+    "title": "Elegant Castle Stay",
+    "description": "Live like royalty in a historic castle with lush gardens and ornate halls.",
+    "image": {
+      "filename": "listingimage34",
+      "url": "https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?auto=format&fit=crop&w=800&q=60"
+    }
+  },
+  {
+    "title": "Countryside Bungalow",
+    "description": "Relax in this well-appointed bungalow surrounded by sunflower fields.",
+    "image": {
+      "filename": "listingimage35",
+      "url": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=60"
+    }
+  },
+  {
+    "title": "Alpine Retreat Lodge",
+    "description": "A spacious alpine lodge with scenic vistas and hiking nearby.",
+    "image": {
+      "filename": "listingimage36",
+      "url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    }
+  },
+  {
+    "title": "Sunny Coastal Apartment",
+    "description": "Bright apartment steps from the golden sands, designed for summer joy.",
+    "image": {
+      "filename": "listingimage37",
+      "url": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=800&q=60"
+    }
+  },
+  {
+    "title": "Eco-Friendly Forest Home",
+    "description": "Sustainable design meets woodland privacy in this eco-friendly residence.",
+    "image": {
+      "filename": "listingimage38",
+      "url": "https://images.unsplash.com/photo-1556911220-e15b29be8c9a?auto=format&fit=crop&w=800&q=60"
+    }
+  },
+  {
+    "title": "Hilltop Garden Studio",
+    "description": "Catch the sunrise from this artistic hilltop studio with flower gardens.",
+    "image": {
+      "filename": "listingimage39",
+      "url": "https://images.unsplash.com/photo-1600271884867-3a29d50b5993?auto=format&fit=crop&w=800&q=60"
+    }
+  },
+  {
+    "title": "Vibrant City Apartment",
+    "description": "Enjoy nightlife and food in this modern apartment set in the city’s heart.",
+    "image": {
+      "filename": "listingimage40",
+      "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60"
+    }
+  }
 ];
 
 module.exports = { data: sampleListings };
