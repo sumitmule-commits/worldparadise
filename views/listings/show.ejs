@@ -35,8 +35,22 @@
         <form method="POST" action="/listings/<%= listing._id %>?_method=DELETE">
           <button class="btn btn-danger w-100">Delete this Listing</button>
         </form>
+         <hr>
+      <div>
+        <form action="">
+          <h3>Reviews</h3>
+          <div class="mb-3 col-md-6" >
+            <label for="range1" class="form-label">Range</label>
+            <input type="range" class="form-range" min="1" max="5" id="rating" name="review[rating]">
+          </div>
+          <div class="text-center mt-4">
+            <label for="comment">comments</label>
+            <textarea name="review[rating]" id="comments" cols="30" role="10"></textarea>
+          </div>
+        </form>
+        <button class="btn btn-warning px-5">submit</button>
       </div>
-
+      </div>
     </div>
   </div>
 </body>
